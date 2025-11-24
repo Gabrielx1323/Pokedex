@@ -11,15 +11,19 @@
         <img src="Imagens/Pokédextophone.png" alt="Pokédex" id="pokedex">
     </header>
     <main>
-         
+             <h1 class="pokemon__data">
+                   <span class="pokemon__number"></span> -
+                   <span class="pokemon__name"></span>
+            </h1>
         <div>
-        <img src="#" alt="pokemon" class="pokemon__image">
-        <input type="text" name="txt" id="itxt" placeholder="Numero ou nome" required>
-        <input type="submit" value="Pesquisar" id="botao">
+        <img src="#" alt="pokemon" class="pokemon__image" width="100px">
+        <form class="form">
+            <input type="search" required name="txt" id="itxt" placeholder="Numero ou nome">
+        </form>
         </div>
         <nav>
-        <input type="submit" value="Anterior &lt" class="botoes">
-        <input type="submit" value="Proximo &gt" class="botoes">
+        <input type="submit" value="Anterior &lt" class="botoes back">
+        <input type="submit" value="Proximo &gt" class="botoes next">
         </nav>
         <img src="Imagens/pokedex.png" alt="pokedex">
     </main>
